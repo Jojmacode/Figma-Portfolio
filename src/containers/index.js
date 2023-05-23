@@ -1,0 +1,5 @@
+export {default as About} from './about/about.jsx'
+export {default as Footer} from './footer/footer.jsx'
+export {default as Header} from './header/header.jsx'
+export {default as Projects} from './projects/projects.jsx'
+export {default as Technologies} from './technologies/technologies.jsx'

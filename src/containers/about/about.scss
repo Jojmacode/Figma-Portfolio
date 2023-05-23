@@ -1,0 +1,73 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 0 0em 0;
+    box-sizing: border-box;
+  }
+  .title {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 83.33%;
+    padding-bottom: 30px;
+  }
+  .title h1{
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 69px;
+  }
+  .timeline{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: center;
+    padding-bottom: 32px;
+  }
+  .timeline_container{
+    width: 100%;
+  }
+  .years{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .years h3{
+    text-align: left;
+  }
+  .timeline_line{
+    width: 100%;
+    height: 5px;
+    position: relative;
+    top:13px;
+    z-index: -1;
+    display: flex;
+  }
+  .timeline_line .line{
+    height: 10px;
+    box-sizing: border-box;
+    border-radius:15px ;
+    width: 100%;
+    background-color: white;
+  }
+  .about_bullets{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about_bullets .bullet_box .bullet{
+    box-sizing: border-box;
+  }
+  .timeline_text{
+    display: flex;
+  }
+  .timeline_text p{
+    width: 25%;
+    padding-right: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #929EB0;
+  }

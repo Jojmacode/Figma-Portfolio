@@ -1,0 +1,20 @@
+.technology{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 65px;
+}
+.text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bar{
+    align-self: flex-start;
+    height: 15px;
+    background:linear-gradient(330deg, #13ADC7 21.25%, #6978D1 58.73%, #945DD6 77.47%);
+    border-radius: 10px;
+}

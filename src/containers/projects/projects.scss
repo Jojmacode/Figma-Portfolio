@@ -1,0 +1,26 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 0 0em 0;
+    box-sizing: border-box;
+}
+.projects .title{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.title h1{
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 69px;
+}
+.projects_container{
+    width: 104%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
