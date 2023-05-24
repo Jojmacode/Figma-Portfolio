@@ -61,7 +61,6 @@
 .header_container_images {
   flex: 1;
   position: relative;
-  border: solid red 3px;
 }
 
 .photo {
